@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*
+Author: Hamlet Lin
+Date: 2/16/2023
+Description: Layout design mainly for the resume page
+*/
+
+.reHeading { grid-area: reHeading; }
+.reHeading h4{
+  font-weight: normal;  
+}
+.reContactInfo { grid-area: reContactInfo; }
+.reContactInfo li{
+  font-size: .8em;
+}
+.reContactInfo ul{
+  padding-top: 20%;
+}
+
+
+.reAbout { grid-area: reAbout; }
+.reEducation { grid-area: reEducation; }
+.reExpertise { grid-area: reExpertise; }
+.reExperience { grid-area: reExperience; }
+.reCertification { grid-area: reCertification; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'reHeading reHeading reContactInfo'
+    'reAbout reAbout reAbout'
+    'reEducation reEducation reExpertise'
+    'reExperience reExperience reCertification';
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  font-family: 'Hanken Grotesk';
+  width: 80%;
+  margin-left: 10%;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px 0;
+  font-size: 30px;
+  border-bottom: 1px solid #666666;
+  width: 90%;
+  margin-left: 5%;
+}
+
+
