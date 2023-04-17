@@ -45,9 +45,15 @@ Description: Layout design mainly for the resume page
   text-align: left;
   padding: 20px 0;
   font-size: 30px;
-  border-bottom: 1px solid #666666;
+  border-bottom: 3px dotted #666666;
   width: 90%;
   margin-left: 5%;
 }
 
+/* Style the content */
+.content {
+  font-size: small;
+  
+ 
+}
 
