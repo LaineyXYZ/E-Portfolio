@@ -1,0 +1,11 @@
+main#home .content {
+  text-align: center;
+  padding-top: 200px;
+}
+main#home .content h2, main#home .content h4 {
+  margin-bottom: 0px;
+  line-height: 0px;
+}
+main#home .content h2 {
+  font-size: 80px;
+}/*# sourceMappingURL=home.css.map */
